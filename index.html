@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/standard.css">
+  <title>Stoop Game</title>
+</head>
+<body>
+ <audio  id="mistake" src="items/game-over-arcade-6435.mp3"></audio>
+ <audio autoplay loop id="backgroundaudio" src="items/justin-bieber-yummy-lyrics-128-ytshorts.savetube.me.mp3"></audio>
+<div class="firstbackground">
+  <img src="Items/Polish_20230811_125947432.png">
+</div>
+<div class="secondBackground">
+</div>
+<div class="thirdBackground">
+<img src="items/Polish_20230811_130033349.png">
+<div class="threebox">
+  <button class="threebox1 box">
+   <img id="1" src="items/Polish_20230811_130114391.png">
+  </button>
+  <button class="threebox2 box">
+    
+     <img id="2" src="items/Polish_20230811_130151882.png"></button>
+  <button class="threebox3 box">   
+  <img id="3" src="items/Polish_20230811_130222228.png"></button>
+</div>
+<button id="standardBtn">standard mode</button>
+<button id="speedBtn">speed mode</button>
+<button id="survivalBtn">survival</button>
+<button id="existBtn">exit</button>
+<div class="popbox1">
+  <img src="items/Polish_20230811_130330377.png">
+  <button id="menuBtn">Menu</button>
+</div>
+</div> 
+<div class="fourthBackground">
+<div class="fourthBackground_first">
+  <button id="backtothemenu">Menu</button>
+  <div class="scorebox">Your sorce<br><span id="playersorce">0</span></div>
+  <button id="about">about</button>
+</div>
+<div class="fourthBackground_second">
+ <span id="remindingTime">30</span>
+ <div class="twoboxforcolor">
+   <div id="pronounce">color</div>
+ <div id="colorName">green</div>
+ </div>
+ <div class="colorchosser">
+
+ </div>
+</div>
+<div class="fourthBackground_popbox">
+  <div class="totalpoint">Your Total sorce:<span id="totalsorce"></span></div>
+  <div class="mistakebox"></div>
+  <div class="yourpercent"></div>
+  <button id="resetThegame">again</button>
+</div>
+<div class="blurbox" id="blursurface"></div>
+</div>
+  <script  src="js/index.js"></script>
+  <script  src="js/standard.js"></script>
+</body>
+</html>
